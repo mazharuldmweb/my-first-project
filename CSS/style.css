@@ -1,0 +1,379 @@
+/* Common CSS START */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}
+.container{
+    width: 1320px;
+    margin: auto;
+}
+/* Common CSS ENDING */ 
+
+/* Nav Bar Part START */
+#main_menu{
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+
+}
+.nav_row{
+    display: flex;
+    justify-content: space-between;
+}
+#main_menu .menu_col ul{
+    display: flex;
+    gap: 60px;
+}
+.menu_col ul li a{
+    font-Size: 18px;
+    font-weight: 600;
+    color: #FFFF;
+    font-family: "Open Sans", sans-serif;
+    transition: all linear .3s;
+}
+.menu_col ul li a:hover {
+    color: #000000;
+}
+/* Nav Bar ENDING */
+
+/* Banner Part START */
+#banner{
+   background-image: url("../Images/banner.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 440px 0;
+}
+#banner h2{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: #FFC178;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+#banner h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFF;
+}
+#banner h1 span{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 88px;
+    display: block;
+}
+/* Banner Part ENDING */
+ 
+/* Place Part START */
+#place{
+    padding: 293px 0 324px;
+    
+}
+.place_row{
+    display: flex;
+    gap: 140px;
+}
+.place_row .img_col{
+    width: 582px ;
+}
+.place_row .text_col h3{
+    padding: 30px 0;
+    font-family: "Open Sans", sans-serif;
+    color: #FBD784;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.place_row .text_col h2{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.place_row .text_col h2 span{
+    display: block; 
+}
+.place_row .text_col p{
+    padding: 13px 0;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    width: 587px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 32px;
+}
+.place_row .text_col a{
+    margin-top: 66px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+/* Place Part ENDING */
+
+/* Bromo Part START */
+#Bromo{
+    padding: 260px 0px;
+}
+.Bromobg{
+    background-image: url("../Images/Bromo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Bromo_Content{
+    font-family: "Open Sans", sans-serif;
+    padding: 560px 194px 33px 194px;
+    text-align: center;
+}
+.Bromo_Content h5{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    
+}
+.Bromo_Content h2{
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #FFFF;
+    width: 932px;
+    height: 174.51px;
+}
+.Bromo_Content p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFF;
+    width: 893px;
+    height: 96.28px;
+}
+.Bromo_Content a{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 25.07px;
+}
+/* Bromo Part ENDING */
+
+/* Explore Part START */
+#Explore{
+    padding-bottom: 260px;
+}
+.Explore_items{
+    display: flex;
+    justify-content: space-between;
+}
+.Explore_item{
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.Explore_item_Content{
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+    opacity: 60%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 162px 50px 56px 50px;
+    text-align: center;
+    transition: 0.4s linear;
+}
+.Explore_item:hover .Explore_item_Content{
+    top: 0;
+}
+.Explore_item_Content h5{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFC178;
+}
+.Explore_item_Content p{
+    padding: 39px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFF;
+}
+.Explore_item_Content a{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #FFA343;
+}
+.Explore_item img{
+width: 100%;
+height: 100%;
+}
+/* Explore Part ENDING */
+
+/* INDONESIAN_CULTURE Part START */
+#INDONESIAN_CULTURE{
+    padding: 293px 0 324px;
+    
+}
+.INDONESIAN_CULTURE_ROW{
+    display: flex;
+    gap: 140px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+.INDONESIAN_CULTURE_ROW .img_col{
+    width: 582px ;
+}
+.INDONESIAN_CULTURE_ROW .text_col h5{
+    padding: 30px 0;
+    color: #FBD784;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.INDONESIAN_CULTURE_ROW .text_col h2{
+    width: 663px;
+    color: white;
+    font-weight: 700;
+    font-size: 64px;   
+}
+.INDONESIAN_CULTURE_ROW .text_col h2 span{
+    display: block; 
+}
+.INDONESIAN_CULTURE_ROW .text_col p{
+    padding: 13px 0;
+    color: white;
+    width: 587px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+}
+.INDONESIAN_CULTURE_ROW .text_col a{
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FBD784;
+}
+.INDONESIAN_CULTURE_ROW .img_col{
+    width: 100%;
+}
+/* INDONESIAN_CULTURE Part ENDING */
+
+/* Footer Part SART */
+.footer-top{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    padding: 19px 67px;
+    background-color: #FFA343;
+    color: black;
+    border-radius: 10px;
+    font-weight: 700;  
+    font-size: 17px;
+}
+.footer-top-right{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+.footer-top-right h4{
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    text-transform: ;
+    color: #FFFF;
+    text-transform: capitalize;
+}
+
+
+.footer-middle{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFF;
+    margin-top: 101px;
+}
+.middle-left h2{
+    width: 407.08px;
+    height: 105.36px;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.3px;
+}
+.middle-right{
+    gap: 112px;
+}
+.middle-right .demo{
+    color: #FFD1A4;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.23px;
+}
+.drmo1{
+    color: #FFFF;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+
+}
+.footer-end .icons{
+    display: flex;
+    gap: 15px;
+    color: #FFFF;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+.text{
+    color: #FFFF;
+    width: 400;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+.text2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFF;
+    text-align: center;
+    margin-top: 50px;
+}
